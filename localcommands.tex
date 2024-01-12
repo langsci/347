@@ -1,14 +1,6 @@
 \newcommand{\orcid}[1]{}
 
 \newcommand{\LaConcept}[1]{\textsc{\oldstylenums{\MakeLowercase{#1}}}}
-% pesetskycommands.tex
-%ExPex stuff
-
-\newcommand{\pexcnn}{\pex[exno={~},exnoformat={X}]}  % pexc with no examplenumber and no increment
-\lingset{everygla=\normalfont,{aboveglftskip=0pt}}
-\newcommand{\ptxt}[1]{#1\par}
-\let\expexgla\gla
-\AtBeginDocument{\let\gla\expexgla\gathertags}
 
 %other stuff
 \newunicodechar{⟶}{{\symbolfont{⟶}}}
@@ -60,6 +52,8 @@
 \newcommand{\laszLB}[1]{[\textsubscript{#1}}
 \newcommand{\lasztO}[0]{t\textsubscript{O}}
 \newcommand{\lasztV}[0]{t\textsubscript{V}}
+
+\setlength{\footexindent}{\parindent}
 
 
 % First, we need counters to hold temporary values:
